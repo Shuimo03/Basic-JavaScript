@@ -1,0 +1,22 @@
+// 初始化变量
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+
+// 请只修改这条注释以下的代码
+firstLetterOfLastName = lastName[0];
+
+/*
+[]叫中括号，{}叫大括号，()叫小括号。
+
+JavaScript中只有字符串类型，没有字符类型。那么如何获取到字符串中的某个字符呢？
+
+我们通过[索引] 来获得对应的字符。
+
+大多数现代编程语言，如JavaScript，不同于人类从1开始计数。它们是从0开始计数，这被称为 基于零 的索引。
+
+例如, 在单词 "Charles" 中索引0上的字符为 "C"，所以在 var firstName = "Charles" 中，你可以使用 firstName[0] 来获得第一个位置上的字符。
+
+任务
+使用[索引]来得到变量 lastName 中的第一个字符，并赋给变量 firstLetterOfLastName 。
+*/
