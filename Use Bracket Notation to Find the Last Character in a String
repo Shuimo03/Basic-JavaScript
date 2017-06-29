@@ -1,0 +1,16 @@
+// 初始化变量
+var lastName = "Lovelace";
+
+// 请只修改这条注释以下的代码
+var lastLetterOfLastName = lastName;
+
+lastLetterOfLastName = lastName[lastName.length- 1];
+
+/*
+为了得到一个字符串的最后一个字符，你可以用[字符串的长度减去一]。
+
+例如，在 var firstName = "Charles" 中，你可以这样操作 firstName[firstName.length - 1] 来得到字符串的最后的一个字符。
+
+任务
+使用 [索引] 来取得 lastName 变量中的最后一个字符。
+*/
