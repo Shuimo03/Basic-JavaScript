@@ -1,0 +1,24 @@
+// 初始化变量
+var myStr = "Jello World";
+
+// 请只修改这条注释以下的代码
+
+myStr = "Hello World"; // 请修改这一行
+
+
+/*
+理解字符串的不可变性！当你搞懂不可变性后immutable.js对于你就是小菜一碟了。
+
+在 JavaScript 中，字符串 的值是 不可变的，这意味着一旦字符串被创建就不能被改变。
+
+例如，下面的代码：
+
+var myStr = "Bob";
+myStr[0] = "J";
+是不会把变量 myStr 的值改变成 "Job" 的，因为变量 myStr 是不可变的。注意，这 并不 意味着 myStr 永远不能被改变，只是字符串字面量 string literal 的各个字符不能被改变。改变 myStr 中的唯一方法是重新给它赋一个值，就像这样：
+
+var myStr = "Bob";
+myStr = "Job";
+任务
+把myStr 的值改为Hello World
+*/
