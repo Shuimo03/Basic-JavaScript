@@ -1,0 +1,3 @@
+var myName = "Coolla";
+var myStr = "My name is"+myName+" and I am swell!";
+
