@@ -1,0 +1,26 @@
+function queue(arr, item) {
+   arr.push(item);
+  return arr.shift();
+  return item;  // 请修改这一行
+}
+
+// 初始化测试数据
+var testArr = [1,2,3,4,5];
+
+// 控制台输出
+console.log("Before: " + JSON.stringify(testArr));
+console.log(queue(testArr, 6)); // 你可以修改这一行来测试你的代码
+console.log("After: " + JSON.stringify(testArr));
+
+
+
+
+
+/*
+在计算机科学中 队列（queue）是一个抽象的数据结构，队列中的条目都是有秩序的。新的条目会被加到 队列 的末尾，旧的条目会从 队列 的头部被移出。
+
+写一个函数 queue ，用一个数组arr和一个数字item作为参数。数字item添加到数组的结尾，然后移出数组的第一个元素，最后队列函数应该返回被删除的元素。
+*/
+
+/*
+使用push函数和shift函数
